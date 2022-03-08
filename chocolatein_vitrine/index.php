@@ -1,4 +1,6 @@
 <?php
+session_start();
+
 $urlBack = "http://127.0.0.1/chocolatein/chocolatein_admin";
 
 require_once './modele/class.pdochoc.inc.php';
