@@ -9,7 +9,7 @@ include_once("$racine/modele/bd.produit.inc.php");
 
 // recuperation des donnees GET, POST, et SESSION
 if (isset($_POST['id']) && ($_POST['id'] != "")){
-    $idGammeSelected = $_POST['id'];
+    $idGammeSelected = filter_input(INPUT_POST, 'id', FILTER_SANITIZE_STRING);
 }
 // appel des fonctions permettant de recuperer les donnees utiles a l'affichage 
 $lesGammes = getGammes();
