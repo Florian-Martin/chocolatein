@@ -11,19 +11,20 @@
 		<title><?php echo $title; ?></title>
 		<link rel="stylesheet" type="text/css" href="vues/css/style.css">
 		<link rel="stylesheet" type="text/css" href="vues/css/menuVertical.css">
-		<link rel="stylesheet" type="text/css" href="bibliotheques/bootstrap/css/bootstrap.min.css">
-		<link rel="stylesheet" type="text/css" href="bibliotheques/datatable/dataTable.bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.4/css/dataTables.bootstrap4.min.css">
+		<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.4/css/jquery.dataTables.min.cs">
 		<link href="vues/css/fontawesome/css/all.min.css" rel="stylesheet">
 
 		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
 		<script src="bibliotheques/perso/fonctions.js"></script>
-		<script src="bibliotheques/jquery/jquery.min.js"></script>
-		<script src="bibliotheques/bootstrap/js/bootstrap.min.js"></script>
-		<script src="bibliotheques/datatable/jquery.dataTables.min.js"></script>
-		<script src="bibliotheques/datatable/dataTable.bootstrap.min.js"></script>
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"></script>
+		<script src="https://cdn.datatables.net/1.11.4/js/jquery.dataTables.min.js "></script>
+		<script src="https://cdn.datatables.net/1.11.4/js/dataTables.bootstrap4.min.js"></script>
 		<!-- bibliotheque ckeditor éditeur riche intégré -->
-		<script src="//cdn.ckeditor.com/4.13.1/standard/ckeditor.js"></script>
+		<script src="https://cdn.ckeditor.com/4.17.1/standard/ckeditor.js"></script>
 
 		<script type="text/javascript">
 			// Include this file AFTER both jQuery and bootstrap are loaded.
